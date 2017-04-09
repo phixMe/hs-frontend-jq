@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    font-family: "Roboto Lt", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.panel {
+    border: 1px #F5F5F5 solid;
+    padding: 5px;
+    width: 500px;
+}
+
+.listTitle {
+    font-size: 16px;
+    color: black;
+}
+
+.circle {
+    display: block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    background-color: #9BCA3C;
+    color: white;
+    text-align: center;
+    font-size: 1.4em;
+    position: absolute;
+    left: 14px;
+}
+
+li {
+    border-top: 1px #F5F5F5 solid;
+    list-style-type: none;
+    height: 44px;
+}
+
+.title {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.subTitle {
+    font-size: 10px;
+    color: #CCCCCC;
+}
+
+.vAlignParent {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.vAlign {
+    display: block;
+}
